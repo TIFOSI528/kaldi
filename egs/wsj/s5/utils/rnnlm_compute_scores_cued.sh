@@ -20,6 +20,7 @@ nthread=1
 layerinfo=`cat $dir/rnnlm.info | awk '{print $2}'`
 vocabinfo=`cat $dir/rnnlm.info | awk '{print $4}'`
 
+### the rnnlm path should change to your own
 rnnlm=/qwork3/kqy90/LM/cued-rnnlm.v1.0/rnnlm.cued.v1.0
 [ ! -f $rnnlm ] && echo No such program $rnnlm && exit 1;
 
