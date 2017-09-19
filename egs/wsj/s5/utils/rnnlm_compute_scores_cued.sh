@@ -14,7 +14,7 @@ scores_out=$4
 nthread=1
 
 ### format file of rnnlm.info (see below example)
-# -layers 172887:200:172887 -fullvocsize 175887
+# -layers 27245:200i:200g:27245 -fullvocsize 27245
 
 
 layerinfo=`cat $dir/rnnlm.info | awk '{print $2}'`
